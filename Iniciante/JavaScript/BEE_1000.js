@@ -9,4 +9,4 @@ Saída
 Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha.
 */
 
-console.log("Hello World!")
+console.log("Hello World!") //console.log é comando utilizado em JS para exibir na saída

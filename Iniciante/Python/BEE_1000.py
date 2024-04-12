@@ -8,4 +8,4 @@ Este problema não possui nenhuma entrada.
 Saída
 Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha.
 """
-print('Hello World!\n')
+print('Hello World!\n') # print é o comando utilizado em python para exibir informações na saída

@@ -15,7 +15,7 @@ public class BEE_1000 { //Para utilizar este código no BEECROWD a public class 
  
     public static void main(String[] args) throws IOException {
  
-        System.out.println("Hello World!");
+        System.out.println("Hello World!"); //System.out.println é utilizado em JAVA para exibir na saída
  
     }
  
