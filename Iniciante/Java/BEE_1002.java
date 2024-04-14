@@ -16,11 +16,11 @@ import java.util.Scanner;
 
 public class BEE_1002 {
     public static void main(String[] args) throws IOException {
-        try (Scanner ler = new Scanner(System.in)) {
-            double raio, n = 3.14159, A;
-            raio = ler.nextDouble();
-            A = (raio * raio) * n;
-            System.out.printf("A=%.4f%n", A);
+        try (Scanner ler = new Scanner(System.in)) {            //Adicionado o metodo trycatch para dar encerramento ao scanner criado
+            double raio, n = 3.14159, A;                        //Inicializando as variáveis em double
+            raio = ler.nextDouble();                            //Utilizando o scanner para ler o input do usuário (raio inserido)
+            A = (raio * raio) * n;                              //Calculando área
+            System.out.printf("A=%.4f%n", A);                   //Exibindo área com apenas 4 casas decimais
         } 
     }
 }

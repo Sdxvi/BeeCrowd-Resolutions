@@ -33,10 +33,10 @@ const ler = require('readline').createInterface({
     output: process.stdout
   });
   
-  ler.question('', (raio) => {
-    var n = 3.14159, area, raio2 = parseFloat(raio);
-    area = n * raio2 * raio2;
-    console.log("A="+area.toFixed(4));
-    ler.close();
+  ler.question('', (raio) => {                          //abrindo a question para receber o INPUT do usuário
+    var n = 3.14159, area, raio2 = parseFloat(raio);    //inicializando as variáveis e convertendo o input do usuário (que vem originalmente como uma string) para float
+    area = n * raio2 * raio2;                           //cálculo da área
+    console.log("A="+area.toFixed(4));                  //exibindo com 4 casas (.toFixed(4))
+    ler.close();                                        //encerrando o readline
   });
   
