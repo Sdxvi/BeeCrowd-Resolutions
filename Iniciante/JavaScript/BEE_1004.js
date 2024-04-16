@@ -16,5 +16,6 @@
         ler.question('', V2 => {                            //Armazenando o segundo valor digitado em V2
             const PROD = parseInt(V1) * parseInt(V2);       //Criando e executando a mulitplicação da variável PROD 
             console.log(`PROD = ${PROD}`)                   //Exibindo PROD = valor da variável prod
+            ler.close();
         })  
     })

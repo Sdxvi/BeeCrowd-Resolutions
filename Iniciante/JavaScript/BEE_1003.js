@@ -17,6 +17,7 @@ const ler = require('readline').createInterface({
     ler.question('', (B) => {       //Lê o input e atribui como string em B
         var SOMA = parseInt(A) + parseInt(B);   //Cria variável soma, e efetua o calculo, convertendo as strings A e B para int
         console.log("SOMA = " + SOMA);  //Exibe soma
+        ler.close();
     })
   })
 
